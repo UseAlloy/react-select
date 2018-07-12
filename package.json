@@ -91,7 +91,7 @@
     "react-dom": "^15.3.0 || ^16.0.0"
   },
   "scripts": {
-    "postinstall": "yarn install && nps build && bundlesize",
+    "postinstall": "npm install && nps build && bundlesize",
     "build": "nps build && bundlesize",
     "watch": "nps build.watch",
     "coveralls": "cat coverage/lcov.info | coveralls",
